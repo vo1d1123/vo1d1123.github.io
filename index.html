@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Home Realty</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1a3c5e;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: #1a3c5e;
+            color: #fff;
+            text-align: center;
+            padding: 6rem 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #e8991c;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background: #d18818;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .feature {
+            flex: 1 1 260px;
+            max-width: 300px;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .feature h3 {
+            color: #1a3c5e;
+            margin-bottom: 0.5rem;
+        }
+
+        .about {
+            background: #f5f7fa;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+        }
+
+        .contact {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .contact p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: #1a3c5e;
+            color: #ccc;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dream Home Realty</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Find Your Dream Home</h2>
+        <p>We help you discover the perfect property that fits your lifestyle and budget.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <section id="services" class="features">
+        <div class="feature">
+            <h3>Buy a Home</h3>
+            <p>Browse our listings to find the perfect home for you and your family.</p>
+        </div>
+        <div class="feature">
+            <h3>Sell Your Property</h3>
+            <p>Get the best value for your property with our experienced team.</p>
+        </div>
+        <div class="feature">
+            <h3>Rental Services</h3>
+            <p>Looking to rent? We have a wide selection of rental properties available.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Dream Home Realty is dedicated to helping clients find their ideal property.
+           Our knowledgeable team provides personalized service to make the process of
+           buying, selling, or renting a home as smooth as possible.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? We would love to hear from you.</p>
+        <p>Email: <a href="mailto:info@dreamhomerealty.me">info@dreamhomerealty.me</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dream Home Realty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
